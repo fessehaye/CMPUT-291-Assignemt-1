@@ -1,0 +1,7 @@
+prompt Question 2 - fessehay
+
+SELECT ads.aid
+FROM ads
+WHERE (ads.title like '%snowmobile%' or ads.descr like '%snowmobile%')
+AND NOT(ads.descr like '%broken%' AND ads.descr like '%repair%')
+ORDER BY ads.pdate DESC;

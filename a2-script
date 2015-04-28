@@ -1,0 +1,460 @@
+Script started on Wed 13 Feb 2013 02:56:48 PM MST
+fessehay@uc09:~/Desktop/ass2SQL>sqlplus fessehay @a2-data.sql
+
+SQL*Plus: Release 11.1.0.6.0 - Production on Wed Feb 13 14:56:53 2013
+
+Copyright (c) 1982, 2007, Oracle.  All rights reserved.
+
+Enter password: 
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+SQL> @1
+Question 1 - fessehay
+
+AID  TITLE		  DESCR 					PRICE
+---- -------------------- ---------------------------------------- ----------
+PDATE	  POSTER	       NAME
+--------- -------------------- --------------------
+a001 oilers ticket	  Feb 28, againts Stars 			   90
+30-JAN-13 bob@ujiji.com        Bob Carpenter
+
+a701 need oilers ticket?? slightly used; conditions apply		   20
+04-FEB-13 joe@ujiji.com        Joe Plumber
+
+a707 2 tix Feb 15 oilers  includes ride in a broken snowmobile		   90
+09-FEB-13 davood@ujiji.com     Davood Teacher
+
+
+AID  TITLE		  DESCR 					PRICE
+---- -------------------- ---------------------------------------- ----------
+PDATE	  POSTER	       NAME
+--------- -------------------- --------------------
+a708 oilers snowmobile 08 invitational tourn. ultra-rare promo DVD	   50
+10-FEB-13 ferdinand@hb.com     Ferdinand III
+
+a709 2 tickets oilers	  get 'em while you can chump			  100
+31-JAN-13 adam@sport.com       Adam Fan
+
+a710 4 tix oilers Feb 15  40 each or 4 for 150				   40
+02-FEB-13 albert@habsburg.com  Albrecht III
+
+
+AID  TITLE		  DESCR 					PRICE
+---- -------------------- ---------------------------------------- ----------
+PDATE	  POSTER	       NAME
+--------- -------------------- --------------------
+a731 oilers pennant	  yours cheap! (I'm a Flames fan…)		   20
+05-FEB-13 charles@habsburg.com Charles V
+
+
+7 rows selected.
+
+SQL> @2
+Question 2 - fessehay
+
+AID
+----
+a713
+a708
+a712
+a728
+a714
+a725
+a730
+a723
+a715
+a722
+a729
+
+11 rows selected.
+
+SQL> @3
+Question 3 - fessehay
+
+AID
+----
+a002
+a712
+a717
+a720
+a724
+
+SQL> @4
+Question 4 - fessehay
+
+AID  POSTER			  RC	     RR
+---- -------------------- ---------- ----------
+a705 rklettgau@hb.com		   1	      5
+a713 iron@habsburg.com		   2	      5
+a704 iron@habsburg.com		   2	      5
+a727 charles@habsburg.com	   1	      5
+a712 rklettgau@hb.com		   1	      5
+a720 charles@habsburg.com	   1	      5
+a731 charles@habsburg.com	   1	      5
+a717 charles@habsburg.com	   1	      5
+a730 charles@habsburg.com	   1	      5
+
+9 rows selected.
+
+SQL> @5
+Question 5 - fessehay
+
+EMAIL		     NAME			  CP	     SP
+-------------------- -------------------- ---------- ----------
+guntram@habsburg.com Guntram the Rich		   3	     25
+fj@hb-lorraine.com   Francis Joseph		   3	     25
+
+SQL> @6
+
+EMAIL		       AD_COUNT REVIEW_COUNT REVIEW_RATING
+-------------------- ---------- ------------ -------------
+posth@habsburg.com	      2 	   0
+charles@habsburg.com	      5 	   1		 5
+first@habsburg.com	      2 	   2	       2.5
+guntram@habsburg.com	      2 	   0
+davood@ujiji.com	      3 	   1		 4
+fj@hb-lorraine.com	      2 	   0
+karl@hb-lorraine.com	      2 	   1		 2
+
+7 rows selected.
+
+SQL> @7
+Question 7 - fessehay
+
+EMAIL
+--------------------
+charles@habsburg.com
+mtheresa@hb.com
+
+SQL> @8
+Question 8 - fessehay
+
+REVIEWEE	     REVIEWEE
+-------------------- --------------------
+adam@sport.com	     anna@pof.com
+anna@pof.com	     iron@habsburg.com
+davood@ujiji.com     anna@pof.com
+ferdinand@hb.com     bob@ujiji.com
+first@habsburg.com   albert@habsburg.com
+iron@habsburg.com    adam@sport.com
+iron@habsburg.com    davood@ujiji.com
+joe@ujiji.com	     bob@ujiji.com
+joe@ujiji.com	     ferdinand@hb.com
+
+9 rows selected.
+
+SQL> @9
+Question 9 - fessehay
+
+View created.
+
+SQL> @10
+Question 10 - fessehay
+
+EMAIL			     TA    AVERAGE	  STD P
+-------------------- ---------- ---------- ---------- -
+mtheresa@hb.com 	      4 	 6 1.41421356 Y
+charles@habsburg.com	      4 	 4 1.82574186 N
+davood@ujiji.com	      2 	 3	    0 N
+fj@hb-lorraine.com	      2        3.5 2.12132034 Y
+guntram@habsburg.com	      2        2.5 .707106781 Y
+rklettgau@hb.com	      2        3.5 .707106781 N
+founder@habsburg.com	      2 	 5 1.41421356 N
+ferdinand@hb.com	      2        4.5 3.53553391 Y
+posth@habsburg.com	      2        4.5 .707106781 N
+bob@ujiji.com		      1 	 7	    0 Y
+adam@sport.com		      1 	 6	    0 N
+
+EMAIL			     TA    AVERAGE	  STD P
+-------------------- ---------- ---------- ---------- -
+karl@hb-lorraine.com	      1 	 2	    0 N
+iron@habsburg.com	      1 	 5	    0 Y
+joe@ujiji.com		      1 	 5	    0 N
+albert@habsburg.com	      1 	 6	    0 N
+anna@pof.com		      1 	 4	    0 N
+
+16 rows selected.
+
+SQL> quit
+Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+fessehay@uc09:~/Desktop/ass2SQL>exit
+exit
+
+Script done on Wed 13 Feb 2013 02:57:51 PM MST

@@ -1,0 +1,115 @@
+question 1:
+
+AID  TITLE		  DESCR 					PRICE
+---- -------------------- ---------------------------------------- ----------
+PDATE	  POSTER	       NAME
+--------- -------------------- --------------------
+a701 need oilers ticket?? slightly used; conditions apply		   20
+04-FEB-13 joe@ujiji.com        Joe Plumber
+
+a001 oilers ticket	  Feb 28, againts Stars 			   90
+30-JAN-13 bob@ujiji.com        Bob Carpenter
+
+a707 2 tix Feb 15 oilers  includes ride in a broken snowmobile		   90
+09-FEB-13 davood@ujiji.com     Davood Teacher
+
+a709 2 tickets oilers	  get 'em while you can chump			  100
+31-JAN-13 adam@sport.com       Adam Fan
+
+a710 4 tix oilers Feb 15  40 each or 4 for 150				   40
+02-FEB-13 albert@habsburg.com  Albrecht III
+
+a731 oilers pennant	  yours cheap! (I'm a Flames fan…)		   20
+05-FEB-13 charles@habsburg.com Charles V
+
+a708 oilers snowmobile 08 invitational tourn. ultra-rare promo DVD	   50
+06-FEB-13 ferdinand@hb.com     Ferdinand III
+
+
+7 rows selected.
+
+question 2:
+
+AID
+----
+a713
+a714
+a708
+a712
+a728
+a725
+a730
+a723
+a715
+a722
+a729
+
+11 rows selected.
+
+question 3: might be different depending on the day you run it because some of the dates were specified (not sysdate+/-n)
+
+AID
+----
+a002
+a712
+a717
+a720
+a724
+
+question 4:
+
+AID  EMAIL		   # REVIEWS AVG(RATING)
+---- -------------------- ---------- -----------
+a722 ferdinand@hb.com		   1	       4
+a725 anna@pof.com		   2	       4
+a713 iron@habsburg.com		   2	       5
+a708 ferdinand@hb.com		   1	       4
+a712 rklettgau@hb.com		   1	       5
+a730 charles@habsburg.com	   1	       5
+a714 founder@habsburg.com	   1	       4
+
+7 rows selected.
+
+question 5:
+
+EMAIL		     NAME		  # PURCHASES TOTAL PRICE
+-------------------- -------------------- ----------- -----------
+guntram@habsburg.com Guntram the Rich		    3	       25
+fj@hb-lorraine.com   Francis Joseph		    3	       25
+
+question 6:
+
+EMAIL			  # ADS  # REVIEWS AVG(RATING)
+-------------------- ---------- ---------- -----------
+charles@habsburg.com	      5 	 1	     5
+davood@ujiji.com	      3 	 1	     4
+first@habsburg.com	      1 	 2	   2.5
+fj@hb-lorraine.com	      2 	 0
+guntram@habsburg.com	      2 	 0
+karl@hb-lorraine.com	      2 	 1	     2
+posth@habsburg.com	      2 	 0
+
+7 rows selected.
+
+question 7:
+
+POSTER
+--------------------
+charles@habsburg.com
+mtheresa@hb.com
+
+question 8:
+
+REVIEWER	     REVIEWEE
+-------------------- --------------------
+adam@sport.com	     iron@habsburg.com
+albert@habsburg.com  first@habsburg.com
+anna@pof.com	     adam@sport.com
+anna@pof.com	     davood@ujiji.com
+bob@ujiji.com	     ferdinand@hb.com
+bob@ujiji.com	     joe@ujiji.com
+davood@ujiji.com     iron@habsburg.com
+ferdinand@hb.com     joe@ujiji.com
+iron@habsburg.com    anna@pof.com
+
+9 rows selected.
